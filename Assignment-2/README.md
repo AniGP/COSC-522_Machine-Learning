@@ -16,8 +16,7 @@ Collect 20 samples each for 5 classes:
 
 - For recording the sounds, you can use these apps (feel free to try out others but make sure that you are recording uncompressed WAV files):
 
-iOS: Voice Record
-Android: Wav Recorder
+- iOS: Voice Record, Android: Wav Recorder
 
 - I used Audio Recorder - WAV, M4A on my iOS device to capture the data.
 

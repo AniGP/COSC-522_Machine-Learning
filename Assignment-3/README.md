@@ -12,11 +12,11 @@
 
 - In any machine learning task, it is often hard to predict how much training data will be useful. Ideally, you want to collect some pilot data, look at how the models converge to estimate how much more data might be needed. This can be time-consuming and for the purpose of this assignment, we are providing some guideline for the amount of data (treat these numbers as lower bounds as more data is not going to hurt):
 
-walking: 4 hours
-climbing up the stairs: 20 minutes
-climbing down the stairs: 20 minutes
-standing up: 50 instances
-an activity of your choice (up to you).
+1. walking: 4 hours
+2. climbing up the stairs: 20 minutes
+3. climbing down the stairs: 20 minutes
+4. standing up: 50 instances
+5. an activity of your choice (up to you).
 
 - For the actual data collection, you can use existing apps available for different mobile OS. For Android, I would recommend using AndroSensor app and for iOS, use SensorLog. I have personally tested these apps and they work reasonably well. There are plenty of other apps that might work too. Feel free to use any of those if you like. None of these apps (including my suggestions) provide a way to annotate your data in the app. You will need to develop strategies to keep a log of the actual activity being performed. I would recommend to record only one activity in one session and keep the files separate.
 
