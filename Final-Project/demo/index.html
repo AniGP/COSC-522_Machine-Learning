@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Catifier Demo Page</title>
+    </head>
+
+    <body>
+        <div id="browser" class="sidenav">
+            <!-- Populated by JS -->
+        </div>
+
+        <div class="main" style="margin-left: 300px;">
+            <h1 id=sampletxt>Sample: Abyssinian_1</h1>
+
+            <h2>Original Image</h2>
+
+            <img id="imgorg" class="mainimg" src="res/Abyssinian_1/img.png">
+
+            <h2>Preprocessed Images (from input Dataset annotations)</h2>
+
+            <img id="imgmasked" src="res/Abyssinian_1/img_masked.png">
+            <img id="imgbound"  src="res/Abyssinian_1/img_bounded.png">
+
+            <h2>Segmentation Approaches</h2>
+
+            <h4>Color Clustering (K = 8)</h4>
+
+            <img id="imgsegcolor" src="res/Abyssinian_1/img_seg_color.png">
+
+            <h4>Region Based</h4>
+            <img id="imgsegreg"   src="res/Abyssinian_1/img_seg_region.png">
+
+            <h4>Laplace Kernel</h4>
+            <img id="imgseglap"   src="res/Abyssinian_1/img_seg_lap_edge.png">
+
+            <h4>Sobel Kernels</h4>
+            <img id="imgsegsobel" src="res/Abyssinian_1/img_seg_sobel_edge.png">
+
+            <h2>Feature Extraction</h2>
+
+            <h4>Ear Location</h4>
+            <img id="imgear"     src="res/Abyssinian_1/img_ear_location.png">
+
+            <h4>Color Histogram</h4>
+            <img id="imgcolhist" src="res/Abyssinian_1/img_color_hist.png">
+
+            <h2>Final Classification: </h2>
+            <object id="imgclass" data="res/Abyssinian_1/img_class.txt">
+            Not supported
+            </object>
+        </div>
+
+        <script src="js/load.js"></script>
+        <script src="js/init.js"></script>
+    </body>
+
+</html>
