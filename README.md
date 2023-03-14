@@ -1,1 +1,1 @@
-# COSC-522_Machine-Learning
+# COSC 522 Machine Learning
